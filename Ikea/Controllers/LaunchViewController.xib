@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LaunchViewController" customModule="Ikea" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rMA-B3-dZC">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="orqafon" translatesAutoresizingMaskIntoConstraints="NO" id="KRs-jX-1Vj">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCl-si-YtE">
+                            <rect key="frame" x="108" y="692" width="198" height="54"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="54" id="Hbu-jU-kiJ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="18"/>
+                            <state key="normal" title="Get Started">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="RZY-ia-3xA">
+                            <rect key="frame" x="30" y="244.99999999999997" width="343" height="84.666666666666657"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAKE YOUR" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTi-RE-hNA">
+                                    <rect key="frame" x="0.0" y="0.0" width="144.33333333333334" height="27.333333333333332"/>
+                                    <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="24"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOME BEAUTIFUL" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zYt-a5-Dbw">
+                                    <rect key="frame" x="0.0" y="50.333333333333314" width="272.66666666666669" height="34.333333333333343"/>
+                                    <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The best simple place where you  discover most wonderful furnitures  and make your home beautiful" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDm-th-VbH">
+                            <rect key="frame" x="59" y="364.66666666666669" width="325" height="105"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="105" id="Cze-rR-MtF"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="DCl-si-YtE" firstAttribute="leading" secondItem="rMA-B3-dZC" secondAttribute="leading" constant="108" id="Ad6-nC-7o4"/>
+                        <constraint firstAttribute="bottom" secondItem="KRs-jX-1Vj" secondAttribute="bottom" id="AeO-lH-s3a"/>
+                        <constraint firstItem="RZY-ia-3xA" firstAttribute="leading" secondItem="rMA-B3-dZC" secondAttribute="leading" constant="30" id="B3i-6w-ngV"/>
+                        <constraint firstItem="KRs-jX-1Vj" firstAttribute="leading" secondItem="rMA-B3-dZC" secondAttribute="leading" id="SE5-dQ-tav"/>
+                        <constraint firstItem="LDm-th-VbH" firstAttribute="leading" secondItem="rMA-B3-dZC" secondAttribute="leading" constant="59" id="SVI-t3-MoG"/>
+                        <constraint firstAttribute="trailing" secondItem="DCl-si-YtE" secondAttribute="trailing" constant="108" id="g2y-2g-a5N"/>
+                        <constraint firstAttribute="bottom" secondItem="DCl-si-YtE" secondAttribute="bottom" constant="150" id="hGi-Sp-6VR"/>
+                        <constraint firstItem="KRs-jX-1Vj" firstAttribute="top" secondItem="rMA-B3-dZC" secondAttribute="top" id="kI8-Lm-QOW"/>
+                        <constraint firstAttribute="trailing" secondItem="KRs-jX-1Vj" secondAttribute="trailing" id="p5o-Hg-ThH"/>
+                        <constraint firstItem="LDm-th-VbH" firstAttribute="top" secondItem="RZY-ia-3xA" secondAttribute="bottom" constant="35" id="qna-Wi-Poc"/>
+                        <constraint firstAttribute="trailing" secondItem="LDm-th-VbH" secondAttribute="trailing" constant="30" id="txs-J7-FGj"/>
+                        <constraint firstAttribute="trailing" secondItem="RZY-ia-3xA" secondAttribute="trailing" constant="41" id="u1N-SY-CP7"/>
+                        <constraint firstItem="RZY-ia-3xA" firstAttribute="top" secondItem="rMA-B3-dZC" secondAttribute="top" constant="245" id="ytK-Bn-YkM"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="rMA-B3-dZC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1Jw-ae-Llc"/>
+                <constraint firstAttribute="trailing" secondItem="rMA-B3-dZC" secondAttribute="trailing" id="WnR-pJ-J7w"/>
+                <constraint firstAttribute="bottom" secondItem="rMA-B3-dZC" secondAttribute="bottom" id="X8f-kT-fYm"/>
+                <constraint firstItem="rMA-B3-dZC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="eBT-bG-0ij"/>
+            </constraints>
+            <point key="canvasLocation" x="-597" y="53"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="orqafon" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
